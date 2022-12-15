@@ -1,0 +1,74 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow:  0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #05F140; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#2CDA9D;    
+}
+/* click */
+::-webkit-scrollbar-thumb:focus-visible {
+    background:grey;    
+}
+
+
+/* header */
+header{
+    background-color: #564D65;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+/* navigation */
+nav a {
+    background-color:#2CDA9D;
+    border-radius:15px;
+    padding: 10px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.active {
+    background-color: #05F140;
+    color: white;
+}
+/* navigation animation */
+nav a:hover {
+    background-color: #05F140;
+    color: white;
+    transition: .8s;
+}
+.active:hover {
+    background-color:#2CDA9D;
+    border-radius:15px;
+}
+
+/* home boxes */
+
+div {
+    background-color: #3E8989;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    margin: 15px;
+    padding: 5px;
+    text-align: left;
+    box-shadow: 0 5px 5px 5px#564D65 ;
+}
+
